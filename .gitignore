@@ -1,1 +1,18 @@
-_init_.py
+# Ignore Python files and directories
+__init__.py
+asgi.py
+wsgi.py
+test.py
+admin.py
+apps.py
+manage.py
+
+# Ignore compiled Python cache
+__pycache__/ 
+
+# Ignore virtual environment directories
+env/
+.venv/
+
+# Ignore migrations folder (Django migrations, if applicable)
+migrations/
